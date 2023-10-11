@@ -1,14 +1,6 @@
 import React from "react"
 import "./header.css"
 import headerImg from "../images/headerImg.jpg";
-import SEB from "../images/SEB.png";
-import Lastminute from "../images/Lastminute.png";
-import Compensa from "../images/Compensa.png";
-import Swedbank from "../images/Swedbank.png";
-import smeBank from "../images/smeBank.png";
-import MomentCredit from "../images/MomentCredit.png";
-import LogoWish from "../images/LogoWish.png";
-import inbank from "../images/inbank.png";
 import Grid from "../../pages/grid/Grid.jsx";
 
 
@@ -33,16 +25,6 @@ export default function Header() {
         </div>
         <div className="business">
             <p className="businessP">Used by 20,000+ businesses from small startups to household names</p>
-            <div className="businessContainer">
-                <img className="businessNames" src={SEB} alt=""/>
-                <img className="businessNames" src={Lastminute} alt=""/>
-                <img className="businessNames" src={Compensa} alt=""/>
-                <img className="businessNames" src={Swedbank} alt=""/>
-                <img className="businessNames" src={smeBank} alt=""/>
-                <img className="businessNames" src={MomentCredit} alt=""/>
-                <img className="businessNames" src={LogoWish} alt=""/>
-                <img className="businessNames" src={inbank} alt=""/>
-            </div>
         </div>
         <div className="nextPage">
             <h2>Real-World Fraud Protection Designed With Your Customers in Mind</h2>

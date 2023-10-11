@@ -54,10 +54,15 @@ button{
     background-color: #fff;
     padding: 60px;
     align-items: center;
-    margin-right: 260px;
+    margin-right: 200px;
+}
+h2{
+    font-size: 29px;
+    font-family: 'Varela', sans-serif;
 }
 .nextPageP{
     color: black;
     margin-top: 20px;
     margin-bottom: 80px;
+    font-size: 18px;
 }

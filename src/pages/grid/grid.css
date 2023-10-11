@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
-    column-gap: 30px;
+    column-gap: 3%;
 }
 .gridP{
     color: black;
@@ -20,3 +20,13 @@
     margin-left: 300px;
     margin-top: 20px;
 }
+.photosGrid{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30%;
+    margin-left: 50px;
+   }
+   .img3, .img4{
+    margin-top: 100px;
+   }

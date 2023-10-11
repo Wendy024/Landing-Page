@@ -1,11 +1,16 @@
 import React from "react";
 import "./grid.css"
 import AML from "../../components/images/aml.png"
+import IMG1 from "../../components/images/01.png"
+import IMG2 from "../../components/images/02.png"
+import IMG3 from "../../components/images/03.png"
+import IMG4 from "../../components/images/04.png"
 import KYC from "../../components/images/kyc.png"
 import Watch from "../../components/images/watchlist.png"
 
 export default function Grid() {
     return (
+        <>
     <div className="gridContainer">
         <div className="grid">
             <img src={AML} alt=""/>
@@ -23,6 +28,12 @@ export default function Grid() {
             <p className="gridP">Achieve compliance and prevent reputational damage without constraining resources. Automate customer and payment screening using the latest global watchlists.</p>
         </div>
     </div>
-        
+    <div className="photosGrid">
+        <img className="img1" src={IMG1} alt="" />
+        <img className="img2"src={IMG2} alt="" />
+        <img className="img3" src={IMG3} alt="" />
+        <img className="img4" src={IMG4} alt="" />
+    </div>
+      </>  
     )
 }
